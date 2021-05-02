@@ -1,3 +1,2 @@
-django=>2.00
-
+django>=>2.00
 SQLite=>3.9.0
