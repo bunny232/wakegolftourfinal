@@ -1,2 +1,1 @@
-django==2.2
-pysqlite3==3.9.0
+django==2.1
