@@ -80,10 +80,9 @@ WSGI_APPLICATION = 'wgt_site.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'WakeGolfTour.db',
+        'NAME': str(BASE_DIR / 'WakeGolfTour.db'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
